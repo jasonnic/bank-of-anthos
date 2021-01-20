@@ -32,6 +32,7 @@ opentelemetry-ext-wsgi==0.10b0  # via opentelemetry-ext-flask
 opentelemetry-instrumentation==0.10b0  # via opentelemetry-ext-flask, opentelemetry-ext-sqlalchemy, opentelemetry-ext-wsgi
 opentelemetry-sdk==0.10b0  # via -r requirements.in, opentelemetry-exporter-cloud-trace
 protobuf==3.12.2          # via google-api-core, googleapis-common-protos
+psycopg2-binary==2.7.3.2  
 psycopg2==2.7.7           # via -r requirements.in
 pyasn1-modules==0.2.8     # via google-auth
 pyasn1==0.4.8             # via pyasn1-modules, rsa
